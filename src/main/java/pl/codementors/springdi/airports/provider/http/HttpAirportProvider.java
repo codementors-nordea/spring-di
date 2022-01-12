@@ -1,6 +1,7 @@
 package pl.codementors.springdi.airports.provider.http;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 import pl.codementors.springdi.airports.model.Airport;
 import pl.codementors.springdi.airports.model.HttpAirportResponse;
@@ -16,6 +17,7 @@ import static java.net.http.HttpResponse.BodyHandlers.ofString;
 
 @Component
 @HttpSource
+@Profile("http-source")
 @RequiredArgsConstructor
 public class HttpAirportProvider implements AirportProvider {
 

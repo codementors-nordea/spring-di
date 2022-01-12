@@ -1,10 +1,12 @@
 package pl.codementors.springdi.airports.provider.file;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 import pl.codementors.springdi.airports.model.Airport;
 import pl.codementors.springdi.airports.model.Continent;
 import pl.codementors.springdi.airports.provider.AirportProvider;
+import pl.codementors.springdi.airports.provider.FileSource;
 import pl.codementors.springdi.configuration.properties.FileSourceProperties;
 
 import javax.annotation.PostConstruct;
@@ -16,6 +18,7 @@ import java.util.Optional;
 
 @Component
 @FileSource
+@Profile("file-source")
 @RequiredArgsConstructor
 class FileAirportProvider implements AirportProvider {
 

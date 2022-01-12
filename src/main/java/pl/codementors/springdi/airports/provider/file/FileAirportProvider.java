@@ -1,13 +1,10 @@
-package pl.infoshare.springdi.airports.provider.file;
+package pl.codementors.springdi.airports.provider.file;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
-import pl.infoshare.springdi.airports.model.Airport;
-import pl.infoshare.springdi.airports.model.Continent;
-import pl.infoshare.springdi.airports.provider.AirportProvider;
-import pl.infoshare.springdi.airports.provider.FileSource;
-import pl.infoshare.springdi.configuration.properties.FileSourceProperties;
+import pl.codementors.springdi.airports.model.Airport;
+import pl.codementors.springdi.airports.model.Continent;
+import pl.codementors.springdi.airports.provider.AirportProvider;
 
 import javax.annotation.PostConstruct;
 import java.io.IOException;

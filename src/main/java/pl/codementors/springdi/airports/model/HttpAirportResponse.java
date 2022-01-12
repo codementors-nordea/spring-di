@@ -1,4 +1,4 @@
-package pl.infoshare.springdi.airports.model;
+package pl.codementors.springdi.airports.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

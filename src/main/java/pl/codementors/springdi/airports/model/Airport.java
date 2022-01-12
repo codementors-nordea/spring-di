@@ -1,4 +1,4 @@
-package pl.infoshare.springdi.airports.model;
+package pl.codementors.springdi.airports.model;
 
 import lombok.Value;
 

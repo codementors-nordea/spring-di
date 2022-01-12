@@ -1,11 +1,11 @@
-package pl.infoshare.springdi.airports.provider.http;
+package pl.codementors.springdi.airports.provider.http;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
-import pl.infoshare.springdi.airports.model.Airport;
-import pl.infoshare.springdi.airports.model.HttpAirportResponse;
-import pl.infoshare.springdi.airports.provider.AirportProvider;
-import pl.infoshare.springdi.airports.provider.HttpSource;
+import pl.codementors.springdi.airports.model.Airport;
+import pl.codementors.springdi.airports.model.HttpAirportResponse;
+import pl.codementors.springdi.airports.provider.AirportProvider;
+import pl.codementors.springdi.airports.provider.HttpSource;
 
 import java.io.IOException;
 import java.net.http.HttpClient;

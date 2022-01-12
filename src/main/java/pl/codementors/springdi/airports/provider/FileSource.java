@@ -1,4 +1,4 @@
-package pl.infoshare.springdi.airports.provider;
+package pl.codementors.springdi.airports.provider;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 

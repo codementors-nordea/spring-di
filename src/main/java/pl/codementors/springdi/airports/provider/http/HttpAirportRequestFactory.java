@@ -1,10 +1,10 @@
-package pl.infoshare.springdi.airports.provider.http;
+package pl.codementors.springdi.airports.provider.http;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
-import pl.infoshare.springdi.configuration.properties.HttpSourceProperties;
+import pl.codementors.springdi.configuration.properties.HttpSourceProperties;
 
 import java.io.UncheckedIOException;
 import java.net.URI;

@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import pl.codementors.springdi.airports.model.Airport;
 import pl.codementors.springdi.airports.provider.AirportProvider;
-import pl.codementors.springdi.airports.provider.FileSource;
 
 import java.util.Optional;
 

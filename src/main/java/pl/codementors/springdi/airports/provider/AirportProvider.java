@@ -1,7 +1,6 @@
-package pl.infoshare.springdi.airports.provider;
+package pl.codementors.springdi.airports.provider;
 
-import org.springframework.stereotype.Component;
-import pl.infoshare.springdi.airports.model.Airport;
+import pl.codementors.springdi.airports.model.Airport;
 
 import java.util.Optional;
 

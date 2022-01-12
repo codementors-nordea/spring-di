@@ -1,4 +1,4 @@
-package pl.infoshare.springdi.configuration.properties;
+package pl.codementors.springdi.configuration.properties;
 
 import lombok.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;

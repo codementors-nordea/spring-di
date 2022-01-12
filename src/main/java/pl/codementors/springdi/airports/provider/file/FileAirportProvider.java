@@ -5,11 +5,11 @@ import org.springframework.stereotype.Component;
 import pl.codementors.springdi.airports.model.Airport;
 import pl.codementors.springdi.airports.model.Continent;
 import pl.codementors.springdi.airports.provider.AirportProvider;
+import pl.codementors.springdi.configuration.properties.FileSourceProperties;
 
 import javax.annotation.PostConstruct;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
